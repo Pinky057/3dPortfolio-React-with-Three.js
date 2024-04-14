@@ -1,4 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
+import { Canvas } from "@react-three/fiber";
 
 const Home = () => {
   return (
@@ -6,6 +8,9 @@ const Home = () => {
       {/* <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
         popup
       </div> */}
+      <Canvas className="w-full h-screen bg-transparent">
+
+      </Canvas>
     </section>
   );
 };
